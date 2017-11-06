@@ -1,0 +1,11 @@
+.Container {
+   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaMlBQwlb4HyLqKGfsuIXOVr0Hw6lALPNiOm7zxClmO7HRVWvP');
+   background-size: 100% 100%;
+   background-attachment: fixed;
+   display:grid;
+   position:relative;
+   height:580px;
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-bottom: 20px;
+}
