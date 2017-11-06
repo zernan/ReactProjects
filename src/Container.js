@@ -8,7 +8,7 @@ class Container extends Component {
   render() {
     return (
       <div className="Container">
-      CONTAINER DIV
+          <h3>CONTAINER DIV</h3>
           <Twitch />
           <Twitter />
           <Searcher />

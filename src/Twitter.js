@@ -5,7 +5,7 @@ class Twitter extends Component {
   render() {
     return (
       <div className="Twitter">
-          TWITTER Placeholder !!!
+          <h4>TWITTER Placeholder !!!</h4>
       </div>
     );
   }
