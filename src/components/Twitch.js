@@ -5,7 +5,7 @@ class Twitch extends Component {
   render() {
     return (
       <div className="Twitch">
-      	<h4>TWITCH Placeholder!!!</h4>
+      	<h4>TWITCH {this.props.content}</h4>
       </div>
     );
   }

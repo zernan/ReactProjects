@@ -7,7 +7,7 @@ class Searcher extends Component {
       <div className="Searcher">
           <h5>Type keyword to search streams</h5>
 		  <input type='text' id='txtBox'/>
-		  <button id='searchBtn' height='100' width='200'>Search</button>
+		  <button id='searchBtn'>Search</button>
       </div>
     );
   }

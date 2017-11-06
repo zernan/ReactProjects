@@ -4,13 +4,14 @@ import Twitter from './Twitter';
 import Searcher from './Searcher';
 import './Container.css'
 
-class Container extends Component {
+class Container extends Component { 
   render() {
+    let content = "Placeholder!!!";
     return (
       <div className="Container">
           <h3>CONTAINER DIV</h3>
-          <Twitch />
-          <Twitter />
+          <Twitch content={content}/>
+          <Twitter content={content}/>
           <Searcher />
       </div>
     );
