@@ -1,0 +1,22 @@
+.Twitch{
+    position:absolute;
+    background-image: url('https://static1.squarespace.com/static/57fa71596b8f5bb7f2b78054/t/57fad3712e69cfd1ffb7746a/1476055924382/twitch+background.jpg?format=1500w');
+    background-size: 100% 100%;
+    height:350px;
+    width:350px;
+    top:70px;
+    left:100px;
+    transition-duration: .3s;
+}
+
+.Twitch:focus {
+	background-image: url('http://i.giphy.com/l0K4kj8NBX8PyanE4.gif');
+	background-size: 100% 100%;
+	height:580px;
+   	width:1100px;
+   	top:0px;
+   	left:0px;
+	transition-property:height, width, top, left, background-image, background-size;
+	transition-duration: .5s, 1s;
+	z-index: 10;
+}

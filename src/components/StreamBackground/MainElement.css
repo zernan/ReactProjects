@@ -1,5 +1,5 @@
-.Container {
-   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaMlBQwlb4HyLqKGfsuIXOVr0Hw6lALPNiOm7zxClmO7HRVWvP');
+.MainElement {
+   background-image: url('https://media.giphy.com/media/H5fHyxUW6wZa0/source.gif');
    background-size: 100% 100%;
    background-attachment: fixed;
    display:grid;

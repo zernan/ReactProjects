@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import './Twitter.css';
 
-class Twitter extends Component {
+class Twitter extends React.Component {
+	
   render() {
+  	
     return (
-      <div className="Twitter">
-          <h4>TWITTER {this.props.content}</h4>
+      <div className="Twitter" tabindex="1">
+          
       </div>
     );
   }
